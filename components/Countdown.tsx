@@ -44,18 +44,18 @@ export default function Countdown({ expiryDate }: CountdownProps) {
   return (
     <div className="flex justify-center gap-4 items-center">
       <div className="flex flex-col items-center">
-        <span className="text-3xl font-bold text-red-600">{pad(timeLeft.hours)}</span>
-        <span className="text-xs text-gray-600 mt-1">Hours</span>
+        <span className="text-3xl font-bold text-black">{pad(timeLeft.hours)}</span>
+        <span className="text-xs text-black mt-1">Hours</span>
       </div>
-      <span className="text-3xl font-bold text-gray-400">:</span>
+      <span className="text-3xl font-bold text-black">:</span>
       <div className="flex flex-col items-center">
-        <span className="text-3xl font-bold text-red-600">{pad(timeLeft.minutes)}</span>
-        <span className="text-xs text-gray-600 mt-1">Minutes</span>
+        <span className="text-3xl font-bold text-black">{pad(timeLeft.minutes)}</span>
+        <span className="text-xs text-black mt-1">Minutes</span>
       </div>
-      <span className="text-3xl font-bold text-gray-400">:</span>
+      <span className="text-3xl font-bold text-black">:</span>
       <div className="flex flex-col items-center">
-        <span className="text-3xl font-bold text-red-600">{pad(timeLeft.seconds)}</span>
-        <span className="text-xs text-gray-600 mt-1">Seconds</span>
+        <span className="text-3xl font-bold text-black">{pad(timeLeft.seconds)}</span>
+        <span className="text-xs text-black mt-1">Seconds</span>
       </div>
     </div>
   );
