@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Industries() {
   const industries = [
     { icon: '🍽️', title: 'Restaurants' },
@@ -28,9 +30,9 @@ export default function Industries() {
         </div>
 
         <div className="text-center">
-          <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-bold transition-all duration-300 transform hover:scale-105">
+             <Link href="https://www.reviewbadhao.com" className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-bold transition-all duration-300 transform hover:scale-105">
             Activate My Review QR
-          </button>
+          </Link>
         </div>
       </div>
     </section>

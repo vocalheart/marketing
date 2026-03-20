@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Countdown from './Countdown';
 
 export default function CTAFooter() {
@@ -32,12 +33,12 @@ export default function CTAFooter() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <button className="bg-green-500 hover:bg-green-600 text-white py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105">
+               <Link href="https://www.reviewbadhao.com" className="bg-green-500 hover:bg-green-600 text-white py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105">
               Subscribe Now
-            </button>
-            <button className="bg-gray-800 hover:bg-gray-900 text-white py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300">
+            </Link>
+               <Link href="https://www.reviewbadhao.com" className="bg-gray-800 hover:bg-gray-900 text-white py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300">
               Contact Sales
-            </button>
+            </Link>
           </div>
         </div>
 

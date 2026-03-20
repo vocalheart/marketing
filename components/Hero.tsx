@@ -129,7 +129,7 @@ export default function Hero() {
                   </Link>
         
                 {/* Get My QR Button */}
-                <Link href="https://your-qr-page.com"
+                <Link href="https://www.reviewbadhao.com"
             
                     className="flex-1 font-bold py-3.5 rounded-xl text-white text-sm sm:text-base flex items-center justify-center gap-2 transition-transform hover:-translate-y-0.5 active:translate-y-0"
                     style={{
@@ -263,7 +263,7 @@ export default function Hero() {
 
               {/* Route buttons */}
               <div className="grid grid-cols-2 gap-3">
-                <button
+               <Link href="https://www.reviewbadhao.com"
                   className="py-3 rounded-xl font-bold text-white text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-transform hover:-translate-y-0.5"
                   style={{ background: 'linear-gradient(135deg, #22c55e, #16a34a)' }}
                 >
@@ -272,8 +272,8 @@ export default function Hero() {
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   4–5 Star → Google
-                </button>
-                <button
+                </Link>
+                  <Link href="https://www.reviewbadhao.com"
                   className="py-3 rounded-xl font-bold text-white text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-transform hover:-translate-y-0.5"
                   style={{ background: 'linear-gradient(135deg, #3b82f6, #2563eb)' }}
                 >
@@ -282,7 +282,7 @@ export default function Hero() {
                       d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                   1–3 Star → Private
-                </button>
+                </Link>
               </div>
 
               {/* Trust note */}

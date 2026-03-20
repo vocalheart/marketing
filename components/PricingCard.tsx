@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Countdown from './Countdown';
 
 export default function PricingCard() {
@@ -52,9 +53,9 @@ export default function PricingCard() {
               ))}
             </div>
 
-            <button className="w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 mb-6">
+               <Link href="https://www.reviewbadhao.com" className="w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 mb-6">
               Subscribe Now
-            </button>
+            </Link>
 
             {/* Countdown Timer */}
             <div className="bg-red-600 text-white rounded-lg p-6 text-center">

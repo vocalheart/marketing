@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SuccessStories() {
   const stories = [
     {
@@ -64,9 +66,9 @@ export default function SuccessStories() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition-all duration-300 transform hover:scale-105">
+             <Link href="https://www.reviewbadhao.com" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition-all duration-300 transform hover:scale-105">
             Join These Success Stories
-          </button>
+          </Link>
         </div>
       </div>
     </section>

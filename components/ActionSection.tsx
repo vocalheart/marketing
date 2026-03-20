@@ -1,5 +1,5 @@
 'use client';
-
+import Link from "next/link";
 export default function ActionSection() {
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -162,12 +162,10 @@ export default function ActionSection() {
                 <p className="font-extrabold text-white text-lg">Thank You!</p>
                 <p className="text-green-100 text-xs mt-1">Your feedback helps us improve</p>
               </div>
-              <button
-                className="font-bold text-sm px-5 py-2 rounded-lg mt-1 transition-transform hover:scale-105"
-                style={{ background: '#ffffff', color: '#16a34a' }}
-              >
+                <Link href="https://www.reviewbadhao.com" className="font-bold text-sm px-5 py-2 rounded-lg mt-1 transition-transform hover:scale-105"
+                style={{ background: '#ffffff', color: '#16a34a' }}>
                 Done
-              </button>
+              </Link>
             </div>
             <div
               className="w-8 h-1 rounded-full mb-4"
@@ -201,7 +199,7 @@ export default function ActionSection() {
 
         {/* ── CTA ── */}
         <div className="text-center mt-12">
-          <button
+            <Link href="https://www.reviewbadhao.com"
             className="inline-flex items-center gap-2 font-bold py-3.5 px-8 rounded-xl text-white transition-transform hover:-translate-y-0.5 text-sm sm:text-base"
             style={{
               background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
@@ -213,7 +211,7 @@ export default function ActionSection() {
                 d="M19 21H5a2 2 0 01-2-2V7a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z" />
             </svg>
             Get This For My Business
-          </button>
+          </Link>
           <p className="text-gray-400 text-xs mt-3">No technical skills needed · Setup in 5 minutes</p>
         </div>
 

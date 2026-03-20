@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Header() {
@@ -39,12 +40,12 @@ export default function Header() {
         </nav>
 
         {/* Subscribe Button */}
-        <button className="hidden md:block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+         <Link href="https://www.reviewbadhao.com" className="hidden md:block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
           Subscribe Now
-        </button>
+        </Link>
 
         {/* Mobile Menu Button */}
-        <button
+           <Link href="https://www.reviewbadhao.com"
           className="md:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
@@ -61,7 +62,7 @@ export default function Header() {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-        </button>
+        </Link>
       </div>
 
       {/* Mobile Menu */}
@@ -86,9 +87,9 @@ export default function Header() {
             <a href="#contact" className="text-gray-700 hover:text-blue-600">
               Contact
             </a>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-lg w-full">
+               <Link href="https://www.reviewbadhao.com" className="bg-green-500 text-white px-4 py-2 rounded-lg w-full">
               Subscribe Now
-            </button>
+            </Link>
           </nav>
         </div>
       )}

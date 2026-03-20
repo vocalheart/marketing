@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function WhatYouGet() {
   const features = [
     { title: 'Review Management System', price: '₹1999' },
@@ -54,9 +56,9 @@ export default function WhatYouGet() {
             </div>
           </div>
 
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 mb-4">
+             <Link href="https://www.reviewbadhao.com" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 mb-4">
             Subscribe Now - Save ₹4500
-          </button>
+          </Link>
 
           <p className="text-center text-sm text-gray-600">
             ✓ 30-day money-back guarantee

@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 const problems = [
   {
     icon: (
@@ -131,7 +133,7 @@ export default function Problems() {
 
         {/* ── CTA ── */}
         <div className="text-center mb-12">
-          <button
+             <Link href="https://www.reviewbadhao.com"
             className="inline-flex items-center gap-2 font-bold py-3.5 px-8 rounded-xl text-white transition-transform hover:-translate-y-0.5 text-sm sm:text-base"
             style={{
               background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
@@ -143,7 +145,7 @@ export default function Problems() {
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             Fix My Google Rating
-          </button>
+          </Link>
         </div>
 
         {/* ── Stats Banner ── */}
@@ -175,7 +177,7 @@ export default function Problems() {
           </div>
 
           <div className="text-center">
-            <button
+          <Link href="https://www.reviewbadhao.com"
               className="inline-flex items-center gap-2 font-bold py-3.5 px-8 rounded-xl transition-transform hover:-translate-y-0.5 text-sm sm:text-base"
               style={{
                 background: '#ffffff',
@@ -188,7 +190,7 @@ export default function Problems() {
                   d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
               Start Improving My Rating
-            </button>
+            </Link>
           </div>
         </div>
 

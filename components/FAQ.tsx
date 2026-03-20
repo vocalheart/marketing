@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function FAQ() {
@@ -49,7 +50,7 @@ export default function FAQ() {
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
-              <button
+            <Link href="https://www.reviewbadhao.com"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full bg-gray-50 hover:bg-gray-100 px-6 py-4 text-left font-semibold text-gray-900 flex items-center justify-between transition"
               >
@@ -69,7 +70,7 @@ export default function FAQ() {
                     d="M19 14l-7 7m0 0l-7-7m7 7V3"
                   />
                 </svg>
-              </button>
+              </Link>
 
               {openIndex === index && (
                 <div className="px-6 py-4 bg-white border-t border-gray-200">

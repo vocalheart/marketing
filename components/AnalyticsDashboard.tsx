@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 const stats = [
   {
     label: 'Total Scans',
@@ -291,7 +293,7 @@ export default function AnalyticsDashboard() {
 
         {/* ── CTA ── */}
         <div className="text-center mt-10">
-          <button
+             <Link href="https://www.reviewbadhao.com"
             className="inline-flex items-center gap-2 font-bold py-3.5 px-8 rounded-xl text-white transition-transform hover:-translate-y-0.5 text-sm sm:text-base"
             style={{
               background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
@@ -303,7 +305,7 @@ export default function AnalyticsDashboard() {
                 d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
             </svg>
             Access Dashboard
-          </button>
+          </Link>
           <p className="text-gray-400 text-xs mt-3">Included free with every subscription</p>
         </div>
 

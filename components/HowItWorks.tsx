@@ -1,5 +1,5 @@
 'use client';
-
+import Link from "next/link";
 const steps = [
   {
     number: 1,
@@ -164,7 +164,7 @@ export default function HowItWorks() {
 
         {/* ── CTA ── */}
         <div className="text-center">
-          <button
+        <Link href="https://www.reviewbadhao.com"
             className="inline-flex items-center gap-2 font-bold py-3.5 px-8 rounded-xl text-white transition-transform hover:-translate-y-0.5 text-sm sm:text-base"
             style={{
               background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)',
@@ -176,7 +176,7 @@ export default function HowItWorks() {
                 d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
             Get Started Now
-          </button>
+          </Link>
           <p className="text-gray-400 text-xs mt-3">Setup takes less than 5 minutes</p>
         </div>
 
