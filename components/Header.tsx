@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-
+import logo from '../public/ReviewBadhaoLogo.png'
+import Image from 'next/image';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,10 +12,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-            RQ
-          </div>
-          <span className="font-bold text-lg text-blue-600">Review QR</span>
+          <Image src={logo} width={70}/>
         </div>
 
         {/* Desktop Navigation */}

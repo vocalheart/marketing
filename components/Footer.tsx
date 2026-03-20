@@ -9,7 +9,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white font-bold">
                 RQ
               </div>
-              <span className="font-bold text-lg text-white">Review QR</span>
+              <span className="font-bold text-lg text-white">ReviewBadhao QR</span>
             </div>
             <p className="text-gray-400 text-sm">
               Smart review management system for modern businesses. Improve your Google ratings and capture customer feedback.
@@ -78,20 +78,20 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:support@reviewqr.com" className="flex items-center gap-2 hover:text-green-400 transition">
+                <a href="mailto:reviewbadhao@gmail.com" className="flex items-center gap-2 hover:text-green-400 transition">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  support@reviewqr.com
+                  rivewbadhao@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-green-400 transition">
+                <a href="tel:+917554937509" className="flex items-center gap-2 hover:text-green-400 transition">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
-                  +91 98765 43210
+                 +917554937509
                 </a>
               </li>
             </ul>
@@ -128,8 +128,8 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>© 2024 Review QR. All rights reserved. Made with ❤️ for Indian businesses.</p>
-            <p>Review QR - Smart review management system for modern businesses</p>
+            <p>© 2026 Review QR. All rights reserved. Made with ❤️ for Indian businesses.</p>
+            <p>ReviewBadhao QR - Smart reviewbadhao management system for modern businesses</p>
           </div>
         </div>
       </div>
