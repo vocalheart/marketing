@@ -16,7 +16,6 @@ export default function Comparison() {
     'Actionable insights to improve service',
     'Higher ratings = more customers and revenue',
   ];
-
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
