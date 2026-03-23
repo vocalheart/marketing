@@ -3,17 +3,22 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
+          
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white font-bold">
                 RQ
               </div>
-              <span className="font-bold text-lg text-white">ReviewBadhao QR</span>
+              <span className="font-bold text-lg text-white">
+                ReviewBadhao QR
+              </span>
             </div>
+
             <p className="text-gray-400 text-sm">
               Smart review management system for modern businesses. Improve your Google ratings and capture customer feedback.
             </p>
+
             <div className="flex gap-3 mt-4">
               <a href="#" className="bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -37,56 +42,51 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#home" className="hover:text-green-400 transition">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#how-it-works" className="hover:text-green-400 transition">
-                  How It Works
-                </a>
-              </li>
-              <li>
-                <a href="#benefits" className="hover:text-green-400 transition">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:text-green-400 transition">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-green-400 transition">
-                  Contact
-                </a>
-              </li>
+              <li><a href="#home" className="hover:text-green-400 transition">Home</a></li>
+              <li><a href="#how-it-works" className="hover:text-green-400 transition">How It Works</a></li>
+              <li><a href="#benefits" className="hover:text-green-400 transition">Pricing</a></li>
+              <li><a href="#faq" className="hover:text-green-400 transition">FAQ</a></li>
+              <li><a href="#contact" className="hover:text-green-400 transition">Contact</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h4 className="font-bold text-white mb-4">Contact Us</h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-3 text-sm">
               
+              {/* Address */}
+              <li className="flex items-start gap-2">
+                <svg className="w-4 h-4 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                </svg>
+                <span>
+                  Plot No. 3, Third Floor, Bajaj Tower, Raisen Rd,<br />
+                  Lala Lajpat Rai Colony, Bhopal, Madhya Pradesh 462023
+                </span>
+              </li>
+
+              {/* Email */}
               <li>
                 <a href="mailto:reviewbadhao@gmail.com" className="flex items-center gap-2 hover:text-green-400 transition">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  rivewbadhao@gmail.com
+                  reviewbadhao@gmail.com
                 </a>
               </li>
+
+              {/* Phone */}
               <li>
                 <a href="tel:+917554937509" className="flex items-center gap-2 hover:text-green-400 transition">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
-                 +917554937509
+                  +91 7554937509
                 </a>
               </li>
+
             </ul>
           </div>
 
@@ -94,35 +94,24 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Refund Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-green-400 transition">
-                  Cookie Policy
-                </a>
-              </li>
+              <li><a href="#" className="hover:text-green-400 transition">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-green-400 transition">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-green-400 transition">Refund Policy</a></li>
+              <li><a href="#" className="hover:text-green-400 transition">Cookie Policy</a></li>
             </ul>
           </div>
+
         </div>
 
-        {/* Divider */}
+        {/* Bottom */}
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>© 2026 Review QR. All rights reserved. Made with ❤️ for Indian businesses.</p>
-            <p>ReviewBadhao QR - Smart reviewbadhao management system for modern businesses</p>
+            <p>
+              © 2026 Review QR. All rights reserved. Made with ❤️ for Indian businesses.
+            </p>
+            <p>
+              ReviewBadhao QR - Smart review management system for modern businesses
+            </p>
           </div>
         </div>
       </div>
