@@ -69,14 +69,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Contact Us</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-green-400 transition">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773c.55 1.694 2.333 3.476 4.028 4.025l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                  </svg>
-                  +91 98765 43210
-                </a>
-              </li>
+              
               <li>
                 <a href="mailto:reviewbadhao@gmail.com" className="flex items-center gap-2 hover:text-green-400 transition">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
